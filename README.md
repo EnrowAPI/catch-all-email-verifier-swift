@@ -2,6 +2,8 @@
 
 [![Swift 5.9+](https://img.shields.io/badge/Swift-5.9+-orange.svg)](https://swift.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/EnrowAPI/catch-all-email-verifier-swift)](https://github.com/EnrowAPI/catch-all-email-verifier-swift)
+[![Last commit](https://img.shields.io/github/last-commit/EnrowAPI/catch-all-email-verifier-swift)](https://github.com/EnrowAPI/catch-all-email-verifier-swift/commits)
 
 Verify emails on catch-all domains with deterministic verification. Most verifiers mark catch-all emails as "risky" or "unknown" -- this one tells you if the specific mailbox actually exists.
 
@@ -19,7 +21,7 @@ Add the package with Swift Package Manager:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/enrow/catch-all-email-verifier-swift", from: "1.0.0"),
+    .package(url: "https://github.com/EnrowAPI/catch-all-email-verifier-swift", from: "1.0.0"),
 ]
 ```
 
@@ -90,7 +92,7 @@ Paid plans start at **$17/mo** for 1,000 credits up to **$497/mo** for 100,000 c
 ## Documentation
 
 - [Enrow API documentation](https://docs.enrow.io)
-- [Full Enrow SDK](https://github.com/enrow/enrow-swift) -- includes email finder, phone finder, reverse email lookup, and more
+- [Full Enrow SDK](https://github.com/EnrowAPI/enrow-swift) -- includes email finder, phone finder, reverse email lookup, and more
 
 ## License
 
